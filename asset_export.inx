@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+  <_name>Asset Export</_name>
+  <id>com.logtome.assetexport</id>
+  <effect>
+    <object-type>all</object-type>
+    <effects-menu>
+      <submenu _name="Export"/>
+    </effects-menu>
+  </effect>
+  <param type="path" name="export_file_name" gui-text="Export Path" mode="file_new" />
+  <script>
+    <command location="inx" interpreter="python">asset_export.py</command>
+  </script>
+</inkscape-extension>
